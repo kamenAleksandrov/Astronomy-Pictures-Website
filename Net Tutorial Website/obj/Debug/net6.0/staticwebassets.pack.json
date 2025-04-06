@@ -1,0 +1,321 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Net Tutorial Website.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Net Tutorial Website.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\Andromeda (1).jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda.jpg",
+      "PackagePath": "staticwebassets\\Images\\Andromeda.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Dumbell.jpg",
+      "PackagePath": "staticwebassets\\Images\\Dumbell.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\IMG_9569.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_9569.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\IMG_9575.jpg",
+      "PackagePath": "staticwebassets\\Images\\IMG_9575.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Orion.jpg",
+      "PackagePath": "staticwebassets\\Images\\Orion.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Pacman.jpg",
+      "PackagePath": "staticwebassets\\Images\\Pacman.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\Ring.jpg",
+      "PackagePath": "staticwebassets\\Images\\Ring.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\_MG_7563.jpg",
+      "PackagePath": "staticwebassets\\Images\\_MG_7563.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\winner_a_colourful_quadrantid_meteor_c_frank_kuszajresize.jpg",
+      "PackagePath": "staticwebassets\\Images\\winner_a_colourful_quadrantid_meteor_c_frank_kuszajresize.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\winner_and_overall_winner_the_golden_ring_c_shuchang_dong.jpg",
+      "PackagePath": "staticwebassets\\Images\\winner_and_overall_winner_the_golden_ring_c_shuchang_dong.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\winner_california_dreamin_ngc_1499_c_terry_hancockresize.jpg",
+      "PackagePath": "staticwebassets\\Images\\winner_california_dreamin_ngc_1499_c_terry_hancockresize.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\winner_luna_dunes_c_jeffrey_lovelaceresize.jpg",
+      "PackagePath": "staticwebassets\\Images\\winner_luna_dunes_c_jeffrey_lovelaceresize.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\Images\\winner_the_milky_ring_c_zhong_wuresize.jpg",
+      "PackagePath": "staticwebassets\\Images\\winner_the_milky_ring_c_zhong_wuresize.jpg"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Net Tutorial Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Net Tutorial Website.props",
+      "PackagePath": "build\\Net Tutorial Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Net Tutorial Website.props",
+      "PackagePath": "buildMultiTargeting\\Net Tutorial Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Net Tutorial Website.props",
+      "PackagePath": "buildTransitive\\Net Tutorial Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

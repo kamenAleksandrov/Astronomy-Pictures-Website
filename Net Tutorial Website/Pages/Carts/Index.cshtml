@@ -1,0 +1,53 @@
+﻿@page
+@model Net_Tutorial_Website.Pages.Carts.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Cart</h1>
+
+<table class="table" style="color: #ECDBBA;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cart[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cart[0].Price)
+            </th>
+            <th>
+                Image
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Cart)
+        {
+            <tr style="background-color: #374045; color: #ECDBBA;">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    <img src="/@Url.Content(item.ImagePath)" style='height: 100%; width: 100%; object-fit: contain; max-width: 160px; max-height: 100px' />
+                </td>
+                <td>
+                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<p>
+    Total price: @Model.Cart.Sum(i => i.Price) лв.
+
+    <a href="/Checkout">
+        <input class="add-to-cart" type="submit" value="Checkout">
+    </a>
+</p>

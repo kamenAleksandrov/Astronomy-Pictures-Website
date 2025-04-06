@@ -1,0 +1,51 @@
+﻿@page
+@model Net_Tutorial_Website.Pages.Canvases.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Canvas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Canvas.Title" class="control-label"></label>
+                <input asp-for="Canvas.Title" class="form-control" />
+                <span asp-validation-for="Canvas.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Canvas.Info" class="control-label"></label>
+                <input asp-for="Canvas.Info" class="form-control" />
+                <span asp-validation-for="Canvas.Info" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Canvas.Price" class="control-label"></label>
+                <input asp-for="Canvas.Price" class="form-control" />
+                <span asp-validation-for="Canvas.Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FileUpload.FormFile" class="control-label"></label>
+                <input asp-for="FileUpload.FormFile" class="form-control" type="file" />
+                <span asp-validation-for="FileUpload.FormFile" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

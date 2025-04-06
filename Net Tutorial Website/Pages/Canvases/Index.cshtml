@@ -1,0 +1,124 @@
+﻿@page
+@model Net_Tutorial_Website.Pages.Canvases.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Browse products</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        Title <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+        <select asp-for="CanvasGenre" asp-items="Model.Genres">
+            <option value="">All</option>
+        </select>
+    </p>
+</form>
+
+<div class="canvases-container">
+    @foreach (var item in Model.Canvas)
+    {
+        <div class="canvas-container">
+            <div class="flex-column" style="max-height: 800px; max-width: 600px">
+                <div class="card">
+                    <div class="image-container">
+                        <a asp-page="./Details" asp-route-id="@item.ID">
+                            <img src="/@Url.Content(item.ImagePath)" style='height: 100%; width: 100%; object-fit: contain; max-width: 800px; max-height: 500px' />
+                        </a>
+                    </div>
+                    <div class="container">
+                        <h2>@Html.DisplayFor(modelItem => item.Title) </h2>
+                        <p class="info">
+                            @Html.DisplayFor(modelItem => item.Info)
+                        </p>
+                        <p>
+                            @Html.DisplayFor(modelItem => item.Price)
+                        </p>
+
+                        <form>
+                            <p>
+                                <input type="hidden" asp-for="AddToCart" value="@item.Title" />
+                                <input class="add-to-cart" type="submit" value="Add to cart">
+                            </p>
+                        </form>
+
+                        <p>
+                            <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                            <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                            <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+@*
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].Genre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].Rating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].ImagePath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canvas[0].ImagePath)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Canvas)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rating)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImagePath)
+                </td>
+                <td>
+                    <img src="/@Url.Content(item.ImagePath)"/>
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+*@

@@ -1,0 +1,93 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Net_Tutorial_Website
+build_property.RootNamespace = Net_Tutorial_Website
+build_property.ProjectDir = C:\Users\nemak\OneDrive\УНИ\НБУ\6-ТИ КУРС\Net Tutorial Website\Net Tutorial Website\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nemak\OneDrive\УНИ\НБУ\6-ТИ КУРС\Net Tutorial Website\Net Tutorial Website
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Canvases/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FudmFzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Canvases/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FudmFzZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Canvases/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FudmFzZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Canvases/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FudmFzZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Canvases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FudmFzZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Carts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Carts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Carts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Carts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nemak/OneDrive/УНИ/НБУ/6-ТИ КУРС/Net Tutorial Website/Net Tutorial Website/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-272a3rwp50
