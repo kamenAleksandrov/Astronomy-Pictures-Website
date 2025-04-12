@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rNl+5cCByWjhH/I/aRhn6she05JS34TwoH3whO5Lz5XOWnSjJwjz5gCn5DybuE1NFVLc8tZzMovrHw1A0l6dpg==",
+  "dgSpecHash": "xZ4fo93Mgbc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
+  "projectFilePath": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nemak\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nemak\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

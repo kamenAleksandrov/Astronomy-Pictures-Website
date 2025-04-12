@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\Net Tutorial Website.csproj": {}
+    "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Net Tutorial Website.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\Net Tutorial Website.csproj": {
+    "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Net Tutorial Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
+        "projectUniqueName": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
         "projectName": "Net Tutorial Website",
-        "projectPath": "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
+        "projectPath": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Net Tutorial Website.csproj",
         "packagesPath": "C:\\Users\\nemak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nemak\\OneDrive\\УНИ\\НБУ\\6-ТИ КУРС\\Net Tutorial Website\\Net Tutorial Website\\obj\\",
+        "outputPath": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net6.0": {
@@ -85,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
