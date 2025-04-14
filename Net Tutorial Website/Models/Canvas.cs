@@ -28,7 +28,7 @@ namespace Net_Tutorial_Website.Models
         //[StringLength(20)]
         //[Required]
         //public string Rating { get; set; } = string.Empty;
-
+        [Required]
         public string ImagePath { get; set; }
     }
 }

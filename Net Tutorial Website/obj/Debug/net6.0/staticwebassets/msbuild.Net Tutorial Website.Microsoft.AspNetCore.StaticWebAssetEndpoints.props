@@ -24,29 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 31 May 2022 19:02:51 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Net Tutorial Website/Images/Andromeda (1).70xon77evg.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Andromeda (1).jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"70xon77evg"},{"Name":"integrity","Value":"sha256-6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI\u002B7e0Pz3zQ="},{"Name":"label","Value":"_content/Net Tutorial Website/Images/Andromeda (1).jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"457390"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI\u002B7e0Pz3zQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 19 Jun 2022 15:44:47 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Net Tutorial Website/Images/Andromeda (1).jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Andromeda (1).jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI\u002B7e0Pz3zQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"457390"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00226V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI\u002B7e0Pz3zQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 19 Jun 2022 15:44:47 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Net Tutorial Website/Images/Andromeda.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Andromeda.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"404295"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jun 2022 10:04:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"404295"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 12:09:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Net Tutorial Website/Images/Andromeda.qjdgbtu034.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Andromeda.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qjdgbtu034"},{"Name":"integrity","Value":"sha256-avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY="},{"Name":"label","Value":"_content/Net Tutorial Website/Images/Andromeda.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"404295"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jun 2022 10:04:14 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"404295"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022avhu//CL9peUGKJSEgivEhPXroCjI\u002BC0R1rhMHgiAlY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 12:09:38 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Net Tutorial Website/Images/Dumbell.bf62syclo0.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Dumbell.jpg'))</AssetFile>

@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Localization;
+using System.Globalization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Net_Tutorial_Website.Data;
 using Net_Tutorial_Website.Models;
@@ -23,9 +25,25 @@ using (var scope = app.Services.CreateScope())
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    // The default HSTS value is 30 days. You may want to change
+    // this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+// this atempts to fix the user not being able to make decimal
+// numbers with a full stop
+var cultureInfo = new CultureInfo("en-US");
+cultureInfo.NumberFormat.NumberDecimalSeparator = ".";
+
+var supportedCultures = new[] { cultureInfo };
+
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(cultureInfo),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
+
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

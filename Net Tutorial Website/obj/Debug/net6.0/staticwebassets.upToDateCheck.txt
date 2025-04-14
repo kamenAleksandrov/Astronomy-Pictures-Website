@@ -1,7 +1,6 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\_MG_7563.jpg
-wwwroot\Images\Andromeda (1).jpg
 wwwroot\Images\Andromeda.jpg
 wwwroot\Images\Dumbell.jpg
 wwwroot\Images\IMG_9569.jpg

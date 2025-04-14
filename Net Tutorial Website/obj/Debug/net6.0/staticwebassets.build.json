@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nuu40S4U2Wj/uVcwr/rJFdgXmsIGGkDXHTX1Q7R5Smw=",
+  "Hash": "SXDzvL5v+W1H2tzhL9Q/1hnXeQe/f+WLsoa4ml6KLJY=",
   "Source": "Net Tutorial Website",
   "BasePath": "_content/Net Tutorial Website",
   "Mode": "Default",
@@ -120,27 +120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\_MG_7563.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda (1).jpg",
-      "SourceId": "Net Tutorial Website",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\",
-      "BasePath": "_content/Net Tutorial Website",
-      "RelativePath": "Images/Andromeda (1)#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "70xon77evg",
-      "Integrity": "6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI+7e0Pz3zQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\Andromeda (1).jpg"
     },
     {
       "Identity": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda.jpg",
@@ -1861,88 +1840,6 @@
       ]
     },
     {
-      "Route": "Images/Andromeda (1).70xon77evg.jpg",
-      "AssetFile": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda (1).jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "457390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI+7e0Pz3zQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 19 Jun 2022 15:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "70xon77evg"
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Andromeda (1).jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI+7e0Pz3zQ="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Andromeda (1).jpg",
-      "AssetFile": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda (1).jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "457390"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI+7e0Pz3zQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 19 Jun 2022 15:44:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-6V8WuUYBc1KOXNfBsccinBsUuLXb5AFoOI+7e0Pz3zQ="
-        }
-      ]
-    },
-    {
       "Route": "Images/Andromeda.jpg",
       "AssetFile": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\Images\\Andromeda.jpg",
       "Selectors": [],
@@ -1965,7 +1862,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jun 2022 10:04:14 GMT"
+          "Value": "Mon, 14 Apr 2025 12:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2002,7 +1899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jun 2022 10:04:14 GMT"
+          "Value": "Mon, 14 Apr 2025 12:09:38 GMT"
         },
         {
           "Name": "Cache-Control",
