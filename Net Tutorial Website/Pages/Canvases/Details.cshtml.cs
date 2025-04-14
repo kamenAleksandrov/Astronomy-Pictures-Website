@@ -57,7 +57,7 @@ namespace Net_Tutorial_Website.Pages.Canvases
 
                 }
 
-                var cart = new Cart()
+                var cart = new Cart_item()
                 {
                     Title = title,
                     Price = price,

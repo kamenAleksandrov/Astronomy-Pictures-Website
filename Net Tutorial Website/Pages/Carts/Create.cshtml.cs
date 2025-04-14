@@ -25,7 +25,7 @@ namespace Net_Tutorial_Website.Pages.Carts
         }
 
         [BindProperty]
-        public Cart Cart { get; set; } = default!;
+        public Cart_item Cart { get; set; } = default!;
         
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD

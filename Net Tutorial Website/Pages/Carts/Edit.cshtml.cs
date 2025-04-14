@@ -21,7 +21,7 @@ namespace Net_Tutorial_Website.Pages.Carts
         }
 
         [BindProperty]
-        public Cart Cart { get; set; } = default!;
+        public Cart_item Cart { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {

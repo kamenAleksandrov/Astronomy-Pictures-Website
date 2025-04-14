@@ -16,6 +16,6 @@ namespace Net_Tutorial_Website.Data
 
         public DbSet<Net_Tutorial_Website.Models.Canvas>? Canvas { get; set; }
 
-        public DbSet<Net_Tutorial_Website.Models.Cart>? Cart { get; set; }
+        public DbSet<Net_Tutorial_Website.Models.Cart_item>? Cart { get; set; }
     }
 }

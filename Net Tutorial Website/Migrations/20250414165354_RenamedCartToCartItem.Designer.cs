@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Net_Tutorial_Website.Data;
 
@@ -10,9 +11,10 @@ using Net_Tutorial_Website.Data;
 namespace Net_Tutorial_Website.Migrations
 {
     [DbContext(typeof(Net_Tutorial_WebsiteContext))]
-    partial class Net_Tutorial_WebsiteContextModelSnapshot : ModelSnapshot
+    [Migration("20250414165354_RenamedCartToCartItem")]
+    partial class RenamedCartToCartItem
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

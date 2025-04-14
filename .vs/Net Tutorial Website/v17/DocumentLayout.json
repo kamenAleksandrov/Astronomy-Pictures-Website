@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\models\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\models\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\carts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\carts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\canvases\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\canvases\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\helpers\\cookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\helpers\\cookiehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\models\\cart_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\models\\cart_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\models\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\models\\canvas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\canvases\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\canvases\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\migrations\\20250411145942_newpctestmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\migrations\\20250411145942_newpctestmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\data\\net_tutorial_websitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\data\\net_tutorial_websitecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +42,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "RelativeToolTip": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T17:03:44.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CookieHelper.cs",
+              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Helpers\\CookieHelper.cs",
+              "RelativeDocumentMoniker": "Net Tutorial Website\\Helpers\\CookieHelper.cs",
+              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Helpers\\CookieHelper.cs",
+              "RelativeToolTip": "Net Tutorial Website\\Helpers\\CookieHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:18:06.633Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Cart_item.cs",
+              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Models\\Cart_item.cs",
+              "RelativeDocumentMoniker": "Net Tutorial Website\\Models\\Cart_item.cs",
+              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Models\\Cart_item.cs",
+              "RelativeToolTip": "Net Tutorial Website\\Models\\Cart_item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T16:16:07.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Shared\\_Layout.cshtml",
@@ -66,38 +91,36 @@
               "RelativeToolTip": "Net Tutorial Website\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T12:42:18.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T12:42:18.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Canvases\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Canvases\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Canvases\\Index.cshtml.cs",
               "RelativeToolTip": "Net Tutorial Website\\Pages\\Canvases\\Index.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwGAAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T12:32:17.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Canvas.cs",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Models\\Canvas.cs",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Models\\Canvas.cs",
               "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Models\\Canvas.cs",
               "RelativeToolTip": "Net Tutorial Website\\Models\\Canvas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:16:58.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T12:16:58.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Edit.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Canvases\\Edit.cshtml.cs",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Canvases\\Edit.cshtml.cs",
@@ -105,38 +128,11 @@
               "RelativeToolTip": "Net Tutorial Website\\Pages\\Canvases\\Edit.cshtml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T12:14:57.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\js\\site.js",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\js\\site.js",
-              "RelativeToolTip": "Net Tutorial Website\\wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-14T11:55:14.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-14T12:14:57.896Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "Net Tutorial Website\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-14T11:55:04.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Program.cs",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Program.cs",
@@ -144,57 +140,7 @@
               "RelativeToolTip": "Net Tutorial Website\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:55:56.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Net_Tutorial_WebsiteContext.cs",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Data\\Net_Tutorial_WebsiteContext.cs",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\Data\\Net_Tutorial_WebsiteContext.cs",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Data\\Net_Tutorial_WebsiteContext.cs",
-              "RelativeToolTip": "Net Tutorial Website\\Data\\Net_Tutorial_WebsiteContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:01:20.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250411145942_NewPCTestMigration.cs",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Migrations\\20250411145942_NewPCTestMigration.cs",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\Migrations\\20250411145942_NewPCTestMigration.cs",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Migrations\\20250411145942_NewPCTestMigration.cs",
-              "RelativeToolTip": "Net Tutorial Website\\Migrations\\20250411145942_NewPCTestMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T14:59:42.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\appsettings.Development.json",
-              "RelativeToolTip": "Net Tutorial Website\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-11T15:02:13.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\appsettings.json",
-              "RelativeDocumentMoniker": "Net Tutorial Website\\appsettings.json",
-              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\appsettings.json",
-              "RelativeToolTip": "Net Tutorial Website\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-11T15:02:15.741Z"
+              "WhenOpened": "2025-04-11T14:55:56.699Z"
             }
           ]
         }

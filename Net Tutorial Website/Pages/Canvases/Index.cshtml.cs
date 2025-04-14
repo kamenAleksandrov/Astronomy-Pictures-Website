@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Net_Tutorial_Website.Data;
 using Net_Tutorial_Website.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Net_Tutorial_Website.Helpers;
 
 namespace Net_Tutorial_Website.Pages.Canvases
 {
@@ -34,9 +35,9 @@ namespace Net_Tutorial_Website.Pages.Canvases
 
         public async Task OnGetAsync()
         {
-            string title = "";
-            decimal price = 0;
-            string imagePath = "";
+            //string title = "";
+            //decimal price = 0;
+            //string imagePath = "";
             //IQueryable<string> genreQuery = from m in _context.Canvas
             //                                orderby m.Genre
             //                                select m.Genre;
@@ -53,25 +54,48 @@ namespace Net_Tutorial_Website.Pages.Canvases
 
             if (!string.IsNullOrEmpty(AddToCart))
             {
-                var canvasToCart = canvas.Where(t => t.Title.Contains(AddToCart));
+                var canvasItem = await canvas.FirstOrDefaultAsync(t => t.Title.Contains(AddToCart));
 
-                foreach (var canvasItem in canvasToCart)
+                if (canvasItem != null)
                 {
-                    title = canvasItem.Title;
-                    price = canvasItem.Price;
-                    imagePath = canvasItem.ImagePath;
+                    var cart = CookieHelper.GetCart(HttpContext);
 
+                    cart.Add(new Cart_item
+                    {
+                        Title = canvasItem.Title,
+                        Price = canvasItem.Price,
+                        ImagePath = canvasItem.ImagePath
+                    });
+
+                    CookieHelper.SetCart(HttpContext, cart);
                 }
-
-                var cart = new Cart()
-                {
-                    Title = title,
-                    Price = price,
-                    ImagePath = imagePath
-                };
-                _context.Cart.Add(cart);
-                await _context.SaveChangesAsync();
             }
+
+            //this adds the selected item to the cart
+            //could be usefull if i implement user accounts
+            //since its better to save the cart in the database
+            //so the user can access it from any device
+            //if (!string.IsNullOrEmpty(AddToCart))
+            //{
+            //    var canvasToCart = canvas.Where(t => t.Title.Contains(AddToCart));
+
+            //    foreach (var canvasItem in canvasToCart)
+            //    {
+            //        title = canvasItem.Title;
+            //        price = canvasItem.Price;
+            //        imagePath = canvasItem.ImagePath;
+
+            //    }
+
+            //    var cart = new Cart_item()
+            //    {
+            //        Title = title,
+            //        Price = price,
+            //        ImagePath = imagePath
+            //    };
+            //    _context.Cart.Add(cart);
+            //    await _context.SaveChangesAsync();
+            //}
 
             Canvas = await canvas.ToListAsync();
 

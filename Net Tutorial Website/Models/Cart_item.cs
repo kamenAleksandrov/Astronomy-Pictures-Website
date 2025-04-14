@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Net_Tutorial_Website.Models
 {
-    public class Cart
+    public class Cart_item
     {
         public int ID { get; set; }
 
