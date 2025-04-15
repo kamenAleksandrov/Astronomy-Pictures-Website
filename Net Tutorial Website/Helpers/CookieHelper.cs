@@ -29,5 +29,11 @@ namespace Net_Tutorial_Website.Helpers
 
             return new List<Cart_item>();
         }
+
+        public static void ClearCart(HttpContext context)
+        {
+            context.Response.Cookies.Delete("Cart");
+        }
+
     }
 }

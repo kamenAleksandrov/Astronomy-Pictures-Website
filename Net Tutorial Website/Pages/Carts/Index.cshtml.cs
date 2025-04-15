@@ -21,6 +21,12 @@ namespace Net_Tutorial_Website.Pages.Carts
         }
 
         public IList<Cart_item> Cart { get;set; } = default!;
+        public IActionResult OnPostClearCart()
+        {
+            // Clear the cart by saving an empty list to cookies
+            CookieHelper.ClearCart(HttpContext);
+            return RedirectToPage(); // Refresh the page
+        }
 
         //[BindProperty(SupportsGet = true)]
         //public string totalPrice { get; set; }
