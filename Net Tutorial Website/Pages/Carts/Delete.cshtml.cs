@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Net_Tutorial_Website.Data;
+using Net_Tutorial_Website.Helpers;
 using Net_Tutorial_Website.Models;
 
 namespace Net_Tutorial_Website.Pages.Carts
@@ -22,42 +23,75 @@ namespace Net_Tutorial_Website.Pages.Carts
         [BindProperty]
       public Cart_item Cart { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public void OnGet(int? id)
         {
-            if (id == null || _context.Cart == null)
+            if (id != null)
             {
-                return NotFound();
+                var cart = CookieHelper.GetCart(HttpContext).FirstOrDefault(c => c.ID == id);
+                if (cart != null)
+                {
+                    Cart = cart; // Displaying the cart item for confirmation (optional)
+                }
             }
-
-            var cart = await _context.Cart.FirstOrDefaultAsync(m => m.ID == id);
-
-            if (cart == null)
-            {
-                return NotFound();
-            }
-            else 
-            {
-                Cart = cart;
-            }
-            return Page();
         }
 
-        public async Task<IActionResult> OnPostAsync(int? id)
+        public IActionResult OnPost(int? id)
         {
-            if (id == null || _context.Cart == null)
+            if (id != null)
             {
-                return NotFound();
-            }
-            var cart = await _context.Cart.FindAsync(id);
+                // Get current cart from cookies
+                var cart = CookieHelper.GetCart(HttpContext);
 
-            if (cart != null)
-            {
-                Cart = cart;
-                _context.Cart.Remove(Cart);
-                await _context.SaveChangesAsync();
+                // Remove the item with the matching ID
+                var itemToRemove = cart.FirstOrDefault(c => c.ID == id);
+                if (itemToRemove != null)
+                {
+                    cart.Remove(itemToRemove);
+                    // Save updated cart to cookies
+                    CookieHelper.SetCart(HttpContext, cart);
+                }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index"); // Redirect to cart view page
         }
+
+        //the code below works with the database
+        //public async Task<IActionResult> OnGetAsync(int? id)
+        //{
+        //    if (id == null || _context.Cart == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var cart = await _context.Cart.FirstOrDefaultAsync(m => m.ID == id);
+
+        //    if (cart == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    else 
+        //    {
+        //        Cart = cart;
+        //    }
+        //    return Page();
+        //}
+
+        //public async Task<IActionResult> OnPostAsync(int? id)
+        //{
+        //    if (id == null || _context.Cart == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    var cart = await _context.Cart.FindAsync(id);
+
+        //    if (cart != null)
+        //    {
+        //        Cart = cart;
+        //        _context.Cart.Remove(Cart);
+        //        await _context.SaveChangesAsync();
+        //    }
+
+        //    return RedirectToPage("./Index");
+        //}
     }
 }
