@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Net_Tutorial_Website.Data;
+using Net_Tutorial_Website.Helpers;
 using Net_Tutorial_Website.Models;
 
 namespace Net_Tutorial_Website.Pages.Carts
@@ -19,25 +20,41 @@ namespace Net_Tutorial_Website.Pages.Carts
             _context = context;
         }
 
-      public Cart_item Cart { get; set; } = default!; 
+      public Cart_item Cart { get; set; } = default!;
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public void OnGet(int? id)
         {
-            if (id == null || _context.Cart == null)
+            if (id != null)
             {
-                return NotFound();
-            }
+                // Get the cart item from cookies
+                Cart = CookieHelper.GetCart(HttpContext).FirstOrDefault(c => c.ID == id);
 
-            var cart = await _context.Cart.FirstOrDefaultAsync(m => m.ID == id);
-            if (cart == null)
-            {
-                return NotFound();
+                // If no cart item is found, redirect to the index
+                if (Cart == null)
+                {
+                    RedirectToPage("./Index");
+                }
             }
-            else 
-            {
-                Cart = cart;
-            }
-            return Page();
         }
+
+        //below code works with database
+        //public async Task<IActionResult> OnGetAsync(int? id)
+        //{
+        //    if (id == null || _context.Cart == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    var cart = await _context.Cart.FirstOrDefaultAsync(m => m.ID == id);
+        //    if (cart == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    else 
+        //    {
+        //        Cart = cart;
+        //    }
+        //    return Page();
+        //}
     }
 }
