@@ -14,11 +14,13 @@
             <tr>
                 <th>@Html.DisplayNameFor(model => model.Cart[0].Title)</th>
                 <th>@Html.DisplayNameFor(model => model.Cart[0].Price)</th>
+                <th>Qty</th>
+                <th>Total</th>
                 <th>Image</th>
                 <th></th>
             </tr>
         </thead>
-        <form method="post" asp-page-handler="ClearCart">
+        <form method="post" asp-page-handler="ClearCart" onsubmit="return confirm('Are you sure you want to clear your cart?');">
             <input type="submit" class="btn btn-danger" value="Clear Cart" />
         </form>
         <tbody>
@@ -27,6 +29,8 @@
                 <tr style="background-color: #374045; color: #ECDBBA;">
                     <td>@Html.DisplayFor(modelItem => item.Title)</td>
                     <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td>@item.Quantity</td>
+                    <td>@(item.Price * item.Quantity)</td>
                     <td>
                         <img src="@item.ImagePath" style='height: 100%; width: 100%; object-fit: contain; max-width: 160px; max-height: 100px' />
                     </td>
@@ -40,7 +44,7 @@
     </table>
 
     <p>
-        Total price: @Model.Cart.Sum(i => i.Price) лв.
+        Total price: @Model.Cart.Sum(i => i.Price * i.Quantity).
 
         <a href="/Checkout">
             <input class="add-to-cart" type="submit" value="Checkout">

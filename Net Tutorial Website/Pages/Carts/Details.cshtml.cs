@@ -27,12 +27,16 @@ namespace Net_Tutorial_Website.Pages.Carts
             if (id != null)
             {
                 // Get the cart item from cookies
-                Cart = CookieHelper.GetCart(HttpContext).FirstOrDefault(c => c.ID == id);
+                var cart = CookieHelper.GetCart(HttpContext)?.FirstOrDefault(c => c.ID == id);
 
                 // If no cart item is found, redirect to the index
-                if (Cart == null)
+                if (cart == null)
                 {
                     RedirectToPage("./Index");
+                }
+                else
+                {
+                    Cart = cart;
                 }
             }
         }

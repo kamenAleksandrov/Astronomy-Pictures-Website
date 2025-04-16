@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Net Tutorial Website")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b70ef9a706aab63a226f0eb1551e56ad2b34a77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+965ae5a33217d1cad6b7336461778b0ce29f2eeb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Net Tutorial Website")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Net Tutorial Website")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

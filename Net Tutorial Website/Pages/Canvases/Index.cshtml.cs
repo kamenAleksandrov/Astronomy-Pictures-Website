@@ -38,19 +38,12 @@ namespace Net_Tutorial_Website.Pages.Canvases
             //string title = "";
             //decimal price = 0;
             //string imagePath = "";
-            //IQueryable<string> genreQuery = from m in _context.Canvas
-            //                                orderby m.Genre
-            //                                select m.Genre;
+            //this is the search field function
             var canvas = from m in _context.Canvas select m;
             if (!string.IsNullOrEmpty(SearchString))
             {
                 canvas = canvas.Where(s => s.Title.Contains(SearchString));
             }
-            //if (!string.IsNullOrEmpty(CanvasGenre))
-            //{
-            //    canvas = canvas.Where(x => x.Genre == CanvasGenre);
-            //}
-            //Genres = new SelectList(await genreQuery.Distinct().ToListAsync());
 
             if (!string.IsNullOrEmpty(AddToCart))
             {
@@ -60,12 +53,23 @@ namespace Net_Tutorial_Website.Pages.Canvases
                 {
                     var cart = CookieHelper.GetCart(HttpContext);
 
-                    cart.Add(new Cart_item
+                    var existingItem = cart.FirstOrDefault(c => c.ID == canvasItem.ID);
+
+                    if (existingItem != null)
                     {
-                        Title = canvasItem.Title,
-                        Price = canvasItem.Price,
-                        ImagePath = canvasItem.ImagePath
-                    });
+                        existingItem.Quantity += 1;
+                    }
+                    else
+                    {
+                        cart.Add(new Cart_item
+                        {
+                            ID = canvasItem.ID,
+                            Title = canvasItem.Title,
+                            Price = canvasItem.Price,
+                            ImagePath = canvasItem.ImagePath,
+                            Quantity = 1
+                        });
+                    }
 
                     CookieHelper.SetCart(HttpContext, cart);
                 }
@@ -100,27 +104,5 @@ namespace Net_Tutorial_Website.Pages.Canvases
             Canvas = await canvas.ToListAsync();
 
         }
-
-        //public async Task<IActionResult> OnPostAsync(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return Page();
-        //    }
-
-        //    var canvas = await _context.Canvas.FindAsync(id);
-
-        //    var cart = new Cart()
-        //    {
-        //        Title = canvas.Title,
-        //        Price = canvas.Price,
-        //        ImagePath = canvas.ImagePath
-        //    };
-
-        //    _context.Cart.Add(cart);
-        //    await _context.SaveChangesAsync();
-
-        //    return Page();
-        //}
     }
 }

@@ -12,10 +12,6 @@ namespace Net_Tutorial_Website.Models
         [Required]
         public string Title { get; set; }
 
-        //[Display(Name ="Release Date")]
-        //[DataType(DataType.Date)]
-        //public DateTime ReleaseDate { get; set; }
-
         [Required]
         public string Info { get; set; }
 
@@ -24,10 +20,6 @@ namespace Net_Tutorial_Website.Models
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
 
-        //[RegularExpression(@"^[A-Z]+[a-zA-Z0-9""'\s-]*$")]
-        //[StringLength(20)]
-        //[Required]
-        //public string Rating { get; set; } = string.Empty;
         [Required]
         public string ImagePath { get; set; }
     }

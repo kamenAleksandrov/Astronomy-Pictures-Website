@@ -15,9 +15,12 @@ namespace Net_Tutorial_Website.Models
         [Range(1, 999)]
         [DataType(DataType.Currency)]
         [Column(TypeName = "decimal(18, 2)")]
+        [Required]
         public decimal Price { get; set; }
 
+        [Required]
         public string ImagePath { get; set; }
+        public int Quantity { get; set; } = 1;
     }
 }
 

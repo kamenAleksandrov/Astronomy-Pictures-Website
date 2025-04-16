@@ -46,7 +46,14 @@ namespace Net_Tutorial_Website.Pages.Carts
                 var itemToRemove = cart.FirstOrDefault(c => c.ID == id);
                 if (itemToRemove != null)
                 {
-                    cart.Remove(itemToRemove);
+                    if (itemToRemove.Quantity > 1)
+                    {
+                        itemToRemove.Quantity -= 1;
+                    }
+                    else
+                    {
+                        cart.Remove(itemToRemove);
+                    }
                     // Save updated cart to cookies
                     CookieHelper.SetCart(HttpContext, cart);
                 }

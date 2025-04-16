@@ -12,6 +12,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<Net_Tutorial_WebsiteContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Net_Tutorial_WebsiteContext") ??
     throw new InvalidOperationException("Connection string 'Net_Tutorial_WebsiteContext' not found.")));
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
