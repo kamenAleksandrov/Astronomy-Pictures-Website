@@ -30,6 +30,15 @@
                     <td>@Html.DisplayFor(modelItem => item.Title)</td>
                     <td>@Html.DisplayFor(modelItem => item.Price)</td>
                     <td>@item.Quantity</td>
+                    <td>
+                        <form method="post" asp-page-handler="Decrease" asp-route-id="@item.ID" style="display:inline">
+                            <button type="submit" class="btn btn-sm btn-outline-secondary">-</button>
+                        </form>
+                        <span class="mx-2">@item.Quantity</span>
+                        <form method="post" asp-page-handler="Increase" asp-route-id="@item.ID" style="display:inline">
+                            <button type="submit" class="btn btn-sm btn-outline-secondary">+</button>
+                        </form>
+                    </td>
                     <td>@(item.Price * item.Quantity)</td>
                     <td>
                         <img src="@item.ImagePath" style='height: 100%; width: 100%; object-fit: contain; max-width: 160px; max-height: 100px' />
