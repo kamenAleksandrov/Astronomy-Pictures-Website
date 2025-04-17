@@ -36,11 +36,6 @@ namespace Net_Tutorial_Website.Pages.Canvases
         public async Task<IActionResult> OnPostAsync()
         {
 
-            //if (!ModelState.IsValid /*|| _context.Canvas == null || Canvas == null*/)
-            //{
-            //    return Page();
-            //}
-
             if (FileUpload.FormFile.Length > 0)
             {
                 using (var stream = new FileStream(Path.Combine(_hostenvironment.WebRootPath,
@@ -69,9 +64,6 @@ namespace Net_Tutorial_Website.Pages.Canvases
                     await _context.SaveChangesAsync();
                
             }
-
-             //_context.Movie.Add(Movie);
-            //await _context.SaveChangesAsync();
 
             return RedirectToPage("./Index");
         }
