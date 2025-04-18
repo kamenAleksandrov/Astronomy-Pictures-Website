@@ -1,5 +1,7 @@
 ﻿@page
 @model Net_Tutorial_Website.Pages.Carts.IndexModel
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+<meta name="request-verification-token" content="@Xsrf.GetAndStoreTokens(HttpContext).RequestToken" />
 
 @{
     ViewData["Title"] = "Index";
@@ -11,6 +13,7 @@
 {
     <table class="table" style="color: #ECDBBA;">
         <thead>
+
             <tr>
                 <th>@Html.DisplayNameFor(model => model.Cart[0].Title)</th>
                 <th>@Html.DisplayNameFor(model => model.Cart[0].Price)</th>
@@ -26,20 +29,15 @@
         <tbody>
             @foreach (var item in Model.Cart)
             {
-                <tr style="background-color: #374045; color: #ECDBBA;">
+                <tr style="background-color: #374045; color: #ECDBBA;" id="row-@item.ID">
                     <td>@Html.DisplayFor(modelItem => item.Title)</td>
                     <td>@Html.DisplayFor(modelItem => item.Price)</td>
-                    <td>@item.Quantity</td>
                     <td>
-                        <form method="post" asp-page-handler="Decrease" asp-route-id="@item.ID" style="display:inline">
-                            <button type="submit" class="btn btn-sm btn-outline-secondary">-</button>
-                        </form>
-                        <span class="mx-2">@item.Quantity</span>
-                        <form method="post" asp-page-handler="Increase" asp-route-id="@item.ID" style="display:inline">
-                            <button type="submit" class="btn btn-sm btn-outline-secondary">+</button>
-                        </form>
+                        <button class="btn btn-sm btn-outline-secondary btn-decrease" data-id="@item.ID">−</button>
+                        <span class="mx-2" id="qty-@item.ID">@item.Quantity</span>
+                        <button class="btn btn-sm btn-outline-secondary btn-increase" data-id="@item.ID">+</button>
                     </td>
-                    <td>@(item.Price * item.Quantity)</td>
+                    <td id="total-@item.ID">@(item.Price * item.Quantity)</td>
                     <td>
                         <img src="@item.ImagePath" style='height: 100%; width: 100%; object-fit: contain; max-width: 160px; max-height: 100px' />
                     </td>
@@ -53,7 +51,7 @@
     </table>
 
     <p>
-        Total price: @Model.Cart.Sum(i => i.Price * i.Quantity).
+        Total price: <span id="cart-total">@Model.Cart.Sum(i => i.Price * i.Quantity)</span> лв.
 
         <a href="/Checkout">
             <input class="add-to-cart" type="submit" value="Checkout">
@@ -63,4 +61,42 @@
 else
 {
     <p>Your cart is empty.</p>
+}
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.btn-increase, .btn-decrease').forEach(btn => {
+                btn.addEventListener('click', e => {
+                    e.preventDefault();
+
+                    const isIncrease = btn.classList.contains('btn-increase');
+                    const id = btn.dataset.id;
+                    const handler = isIncrease ? 'IncreaseAjax' : 'DecreaseAjax';
+                    const token = document.querySelector('meta[name="request-verification-token"]').content;
+
+                    fetch(`?handler=${handler}&id=${id}`, {
+                        method: 'POST',
+                        headers: {
+                            'RequestVerificationToken': token
+						 }
+                    })
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.error) return;
+
+                        if (data.removed) {
+                            document.getElementById(`row-${id}`).remove();
+                        } else {
+                            document.getElementById(`qty-${id}`).textContent = data.quantity;
+                            document.getElementById(`total-${id}`).textContent =
+                                data.itemTotal.toLocaleString(undefined, { style: 'currency', currency: 'BGN' });
+                        }
+
+                        document.getElementById(`cart-total`).textContent =
+                            data.cartTotal.toLocaleString(undefined, { style: 'currency', currency: 'BGN' });
+                    });
+                });
+            });
+        });
+    </script>
 }

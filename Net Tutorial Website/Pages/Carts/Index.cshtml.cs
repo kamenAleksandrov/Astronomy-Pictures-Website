@@ -23,7 +23,39 @@ namespace Net_Tutorial_Website.Pages.Carts
         public IList<Cart_item> Cart { get;set; } = default!;
 
         //this increases item quantity
-        public IActionResult OnPostIncrease(int id)
+        //public IActionResult OnPostIncrease(int id)
+        //{
+        //    var cart = CookieHelper.GetCart(HttpContext);
+        //    var item = cart.FirstOrDefault(c => c.ID == id);
+        //    if (item != null)
+        //    {
+        //        item.Quantity += 1;
+        //        CookieHelper.SetCart(HttpContext, cart);
+        //    }
+        //    return RedirectToPage();
+        //}
+
+        ////this decreases item quantity
+        //public IActionResult OnPostDecrease(int id)
+        //{
+        //    var cart = CookieHelper.GetCart(HttpContext);
+        //    var item = cart.FirstOrDefault(c => c.ID == id);
+        //    if (item != null)
+        //    {
+        //        if (item.Quantity > 1)
+        //        {
+        //            item.Quantity -= 1;
+        //        }
+        //        else
+        //        {
+        //            cart.Remove(item);
+        //        }
+        //        CookieHelper.SetCart(HttpContext, cart);
+        //    }
+        //    return RedirectToPage();
+        //}
+
+        public JsonResult OnPostIncreaseAjax(int id)
         {
             var cart = CookieHelper.GetCart(HttpContext);
             var item = cart.FirstOrDefault(c => c.ID == id);
@@ -31,12 +63,17 @@ namespace Net_Tutorial_Website.Pages.Carts
             {
                 item.Quantity += 1;
                 CookieHelper.SetCart(HttpContext, cart);
+                return new JsonResult(new
+                {
+                    quantity = item.Quantity,
+                    itemTotal = item.Price * item.Quantity,
+                    cartTotal = cart.Sum(x => x.Price * x.Quantity)
+                });
             }
-            return RedirectToPage();
+            return new JsonResult(new { error = true });
         }
 
-        //this decreases item quantity
-        public IActionResult OnPostDecrease(int id)
+        public JsonResult OnPostDecreaseAjax(int id)
         {
             var cart = CookieHelper.GetCart(HttpContext);
             var item = cart.FirstOrDefault(c => c.ID == id);
@@ -50,9 +87,17 @@ namespace Net_Tutorial_Website.Pages.Carts
                 {
                     cart.Remove(item);
                 }
+
                 CookieHelper.SetCart(HttpContext, cart);
+                return new JsonResult(new
+                {
+                    quantity = item.Quantity,
+                    itemTotal = item.Price * item.Quantity,
+                    cartTotal = cart.Sum(x => x.Price * x.Quantity),
+                    removed = item.Quantity == 0
+                });
             }
-            return RedirectToPage();
+            return new JsonResult(new { error = true });
         }
 
         public IActionResult OnPostClearCart()

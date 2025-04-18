@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\carts\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\carts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\carts\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|c:\\users\\nemak\\onedrive\\personal_projects\\astronomy-pictures-website\\astronomy-pictures-website\\net tutorial website\\pages\\canvases\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7184D875-2554-465A-92BD-7430A8AE3572}|Net Tutorial Website\\Net Tutorial Website.csproj|solutionrelative:net tutorial website\\pages\\canvases\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml",
+              "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml",
+              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml",
+              "RelativeToolTip": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T08:55:40.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "RelativeToolTip": "Net Tutorial Website\\Pages\\Carts\\Index.cshtml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAADwv1UAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:53:50.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Create.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\nemak\\OneDrive\\Personal_Projects\\Astronomy-Pictures-Website\\Astronomy-Pictures-Website\\Net Tutorial Website\\Pages\\Canvases\\Create.cshtml.cs",
               "RelativeDocumentMoniker": "Net Tutorial Website\\Pages\\Canvases\\Create.cshtml.cs",
